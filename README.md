@@ -5,6 +5,7 @@ A simple flake template to get a working NixOS system with home-manager as a mod
 ## Instructions
 
 1. Clone this repository using the `git clone` command.
+
 If you do not have git installed on your system, you can use the following command:
 ```
 nix shell nixpkgs#git --extra-experimental-features 'nix-command flakes' -c git clone https://github.com/thiloho/nixos-flake-config-template.git
